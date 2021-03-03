@@ -1,1 +1,1 @@
-# atcoder
+# This repo exits to manage answers for LeetCode
