@@ -8,6 +8,10 @@ Given an array of words, return the length of the shortest reference string s po
 """
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
+        """
+        :type List[str]
+        :rtype: int
+        """
         word_set = set(words)
         for word in words:
             if word in word_set:
