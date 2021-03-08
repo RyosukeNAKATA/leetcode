@@ -16,7 +16,7 @@ class Solution:
         """
         dict = {}
         while headA:
-            dict[headA]=1
+            dict[headA] = 1
             headA = headA.next
         while headB:
             if headB in dict:
