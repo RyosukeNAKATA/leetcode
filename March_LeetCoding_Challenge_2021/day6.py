@@ -1,5 +1,5 @@
 """
- Question: Short Encoding of Words
+Question: Short Encoding of Words
 A valid encoding of an array of words is any reference string s and array of indices indices such that:
 - words.length == indices.length
 - The reference string s ends with the '#' character.

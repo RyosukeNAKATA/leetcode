@@ -20,7 +20,7 @@ class Solution:
         def getLevelSum(node, level):
             if len(res) <= level:
                 res.append(node.val)
-                count.append(1)
+                count.append(1).
             else:
                 res[level] += node.val
                 count[level] += 1
