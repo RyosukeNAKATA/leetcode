@@ -1,6 +1,6 @@
 """
 Question: Check If a String Contains All Binary Codes of Size K
-Given a binary string s and an integer k.c
+Given a binary string s and an integer k.
 Return True if every binary code of length k is a substring of s. Otherwise, return False.
 """
 class Solution:
