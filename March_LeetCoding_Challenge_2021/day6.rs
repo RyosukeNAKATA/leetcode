@@ -9,7 +9,7 @@ Given an array of words, return the length of the shortest reference string s po
 use std::collections::HashSet;
 impl Solution {
     pub fn minimum_length_encoding(words: Vec<String>) -> i32 {
-        let word_set: HashSet<i32> = words.into_iter().collect();
+        let word_set: HashSet<String> = words.into_iter().collect();
         for word in words {
             if word_set.contains(word) {
                 for i in 1..word.len() {

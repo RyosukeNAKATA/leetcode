@@ -1,17 +1,17 @@
 # This repo exits to manage answers for LeetCode
 ## March LeetCoding Challenge 2021
-|  Day\Language  |  Python  |  Rust  |
+|  Language  |  Python  |  Rust  |
 | ---- | ---- | ---- |
-|  1  |  Accepted  |  Accepted  |
-|  2  |  Accepted  |  Accepted  |
-|  3  |  Accepted  |  Accepted  |
-|  4  |  Accepted  |  -  |
-|  5  |  Accepted  |  -  |
-|  6  |  Accepted  |  -  |
-|  7  |  Accepted  |  -  |
-|  8  |  Accepted  |  -  |
-|  9  |  Accepted  |  -  |
-|  10  |  Accepted  |  -  |
-|  11  |  Accepted  |  -  |
-|  12  |  Accepted  |  -  |
-|  13  |  -  |  -  |
+|  Day1  |  Accepted  |  Accepted  |
+|  Day2  |  Accepted  |  Accepted  |
+|  Day3  |  Accepted  |  Accepted  |
+|  Day4  |  Accepted  |  None  |
+|  Day5  |  Accepted  |  -  |
+|  Day6  |  Accepted  |  -  |
+|  Day7  |  Accepted  |  -  |
+|  Day8  |  Accepted  |  -  |
+|  Day9  |  Accepted  |  -  |
+|  Day10  |  Accepted  |  -  |
+|  Day11  |  Accepted  |  -  |
+|  Day12  |  Accepted  |  -  |
+|  Day13  |  -  |  -  |
