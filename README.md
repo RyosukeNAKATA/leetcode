@@ -15,3 +15,4 @@
 |  Day11  |  Accepted  |  -  |
 |  Day12  |  Accepted  |  Trying  |
 |  Day13  |  Accepted  |  -  |
+|  Day14  |  Accepted  |  -  |
