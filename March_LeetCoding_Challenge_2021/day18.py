@@ -1,45 +1,29 @@
-l = [1, 2, 3, 4, 5]
-for j in range(4):
-    print(j)
-    if l[j] == 3:
-        l.pop(j)
+"""
+Question: Wiggle Subsequence
+Given an integer array nums, return the length of the longest wiggle sequence.
+A wiggle sequence is a sequence where the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a wiggle sequence.
+- For example, [1, 7, 4, 9, 2, 5] is a wiggle sequence because the differences (6, -3, 5, -7, 3) are alternately positive and negative.
+- In contrast, [1, 4, 7, 2, 5] and [1, 7, 4, 5, 5] are not wiggle sequences, the first because its first two differences are positive and the second because its last difference is zero.
+A subsequence is obtained by deleting some elements (eventually, also zero) from the original sequence, leaving the remaining elements in their original order.
 
-print(l)
+Constraints:
+- 1 <= nums.length <= 1000
+- 0 <= nums[i] <= 1000
 
+Follow up: Could you solve this in O(n) time?
+"""
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:
-        output = 0
-        def posistive(nums: list[int], n):
-            diff = nums[n+1] - nums[n]
-            if diff > 0:
-                output += 1
-                negative(nums, n+1)
-            else:
-                nums.pop(n+1)
-                posistive(nums, n)
-
-        def negative(nums: list[int], n):
-            diff = nums[n+1] - nums[n]
-            if diff < 0:
-                output += 1
-                posistive(nums, n+1)
-            else:
-                nums.pop(n+1)
-                negative(nums, n)
-        
-        k = 0
-        num = nums[k] - nums[k+1]
-        for _ in range(len(nums)):
-            if num > 0:
-                output += 1
-                posistive(num, k+1)
-                break
-            elif num < 0:
-                output += 1
-                negative(num, k+1)
-                break
-            else:
-                nums.pop(k+1)
-                k += 1
-
-        return output
+        lenN = len(nums)
+        i = 1
+        while i < lenN and nums[i] == nums[i-1]: i += 1
+        if i == lenN:
+            return 1
+        up = nums[i-1] > nums[i]
+        ans = 1
+        while i < lenN:
+            if (up and nums[i] < nums[i-1]) or (not up and nums[i] > nums[i-1]):
+                up = not up
+                ans += 1
+            i += 1
+        return ans
