@@ -1,4 +1,4 @@
-# This repo exits to manage answers for LeetCode
+# This repo exists to manage answers for LeetCode
 ## March LeetCoding Challenge 2021
 |  Language  |  Python  |  Rust  |
 | ---- | ---- | ---- |
