@@ -16,6 +16,6 @@
 |  Day12  |  Accepted  |  Trying  |
 |  Day13  |  Accepted  |  -  |
 |  Day14  |  Accepted  |  -  |
-|  Day15  |  -  |  -  |
-|  Day16  |  -  |  -  |
-|  Day17  |  -  |  -  |
+|  Day15  |  Accepted  |  -  |
+|  Day16  |  Accepted  |  -  |
+|  Day17  |  Accepted  |  -  |
