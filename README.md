@@ -20,4 +20,4 @@
 |  Day16  |  Accepted  |  -  |
 |  Day17  |  Accepted  |  -  |
 |  Day18  |  Accepted  |  -  |
-|  Day19  |  -  |  -  |
+|  Day19  |  Accepted  |  -  |
